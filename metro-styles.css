@@ -1,0 +1,116 @@
+/* Citations: Jeff's Bootstrap video */
+
+h1,
+h2,
+h3,
+h4{
+  font-family: "Cantarell";
+  color: rgb(179, 18, 18);
+  padding-top: 1rem;
+}
+
+h1{
+  font-style: italic;
+  font-weight: 800;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.backdrop {
+  background: rgb(254, 180, 192) !important;
+  font-family: "Hind Siliguri";
+  font-size: 2vw;
+}
+
+.first-pink-back{
+  background: url(./istockphoto-1051651188-170667a.jpg) center;
+  height: 97vh;
+}
+
+.marble-back{
+  background: url(./istockphoto-1051651188-170667a.jpg) center;
+  font-family: "Hind Siliguri";
+  font-size: 1.5rem;
+}
+
+.marble-back-for-updates{
+  background: url(./istockphoto-1051651188-170667a.jpg) center;
+  font-family: "Hind Siliguri";
+  font-size: 2vw;
+  padding-top: 1.5rem;
+}
+
+.plain-back{
+  background: rgb(254, 180, 192) !important;
+  font-family: "Hind Siliguri";
+  font-size: 2vw;
+}
+
+.btn:hover,
+.btn:focus{
+  filter: brightness(130%)
+}
+
+.btn-red-class{
+  background: rgb(179, 18, 18) !important;
+  box-shadow: 5px 5px 5px black;
+}
+
+.nav-class{
+  font-family: "Cantarell";
+  padding-top: 1rem;
+  background: rgb(179, 18, 18) !important;
+}
+
+.footer-class{
+  font-family: "Cantarell";
+  background:  rgb(179, 18, 18)!important;
+  padding-bottom: 0.75rem;
+}
+
+.footer-text{
+  padding-right: 1rem;
+}
+
+.reviewer{
+  padding-top: 1.75vw;
+  padding-bottom: 1.75vw;
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.hours{
+  padding-left: 1vw;
+  font-size: 1.5vw;
+}
+
+.big-hours{
+  font-size: 2vw;
+}
+
+.last-left{
+  padding-left: 6vw;
+  padding-right: 3vw;
+}
+
+.last-right{
+  padding-left: 3vw;
+  padding-right: 6vw;
+}
+
+.health{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.my-display{
+  font-size: 7vw;
+}
+

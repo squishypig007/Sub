@@ -1,0 +1,158 @@
+/* Citations: Jeff's Bootstrap video */
+/* cantarell-regular - latin */
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/cantarell-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/cantarell-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/cantarell-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/cantarell-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/cantarell-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/cantarell-v15-latin-regular.svg#Cantarell') format('svg'); /* Legacy iOS */
+}
+/* hind-siliguri-regular - latin */
+@font-face {
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/hind-siliguri-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/hind-siliguri-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/hind-siliguri-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/hind-siliguri-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/hind-siliguri-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/hind-siliguri-v12-latin-regular.svg#HindSiliguri') format('svg'); /* Legacy iOS */
+}
+
+h1,
+h2,
+h3,
+h4{
+  font-family: "Cantarell";
+  color: white;
+  padding-top: 1rem;
+}
+
+h1{
+  font-style: bold;
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  font-weight: 800;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.backdrop {
+  background:black !important;
+  font-family: "Hind Siliguri";
+  font-size: 2vw;
+}
+
+.first-pink-back{
+  background: url(bg.jpg) center;
+  height: 97vh;
+}
+
+.marble-back{
+  background: url(bg.jpg) center;
+  font-family: "Hind Siliguri";
+  font-size: 1.5rem;
+}
+
+.marble-back-for-updates{
+  background: url(bg.jpg) center;
+  font-family: "Hind Siliguri";
+  font-size: 2vw;
+  padding-top: 1.5rem;
+}
+
+.plain-back{
+  background: black !important;
+  font-family: "Hind Siliguri";
+  font-size: 2vw;
+}
+
+.btn:hover,
+.btn:focus{
+  filter: brightness(130%)
+}
+
+.btn-red-class{
+  background: white !important;
+  box-shadow: 5px 5px 5px black;
+}
+
+.nav-class{
+  font-family: "Hind Siliguri";
+  padding-top: 1rem;
+  background: black !important;
+}
+
+.footer-class{
+  font-family: "Hind Siliguri";
+  background:  black !important;
+  padding-bottom: 0.75rem;
+}
+
+.footer-text{
+  padding-right: 1rem;
+}
+
+.reviewer{
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.hours{
+  padding-left: 1vw;
+  font-size: 1.5vw;
+}
+
+.big-hours{
+  font-size: 2vw;
+}
+
+.last-left{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+
+.health{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.my-display{
+  font-size: 6vw;
+}
+
+.infographic{
+  background: white !important;
+  border-radius: 25px;
+  font-size: 1.7vw;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.need-padding{
+  padding-left: 2vw;
+}
+
+.hifi{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}

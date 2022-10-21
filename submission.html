@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="niewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Responsive Redesign</title>
+    </head>
+  <!-- page content goes into <body> -->
+    <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark nav-class">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Responsive Redesign</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#usability" class="nav-link">Usability Problems</a></li>
+                    <li class="navbar-item"><a href="#lofi" class="nav-link">Lofi Wireframes</a></li>
+                    <li class="navbar-item"><a href="#guide" class="nav-link">Style Guide</a></li>
+                    <li class="navbar-item"><a href="#hifi" class="nav-link">Hifi Prototype</a></li>
+                    <li class="navbar-item"><a href="#hifi" class="nav-link">Redesigned Site</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-column first-pink-back justify-content-center align-items-center"> 
+        <h1 class ="display-1 text-center">Responsive Redesign</h1>
+        <div class="d-flex justify-content-space-around align-items-center">
+            <img src="toppng.com-mouse-cursor-358x376.png" alt="mouse click", style="width: 25vw; height:25vw">
+        </div>
+        <br> 
+        <br> 
+    </div>
+
+    <div class="d-flex flex-column plain-back text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Introduction</h1>
+        <div class="container text-left">
+            <p class="lead"> 
+            <ul class>
+                When thinking about good design, one of the most important things that we tend to overlook is
+                the accessibility of the interface along with its usability. Both these areas range far beyond their
+                spoken meanings. 
+                <br>
+                <br>
+                Keeping these ideas in mind while browsing the webs in my own time, I came across the website of
+                the local "Metro Nails" salon that I frequent and chose to analyze and redesign it. I chose this website because 
+                I felt that it had meaningful content that had potential to be communicated in a more effective manner.
+                <br>
+                <br>
+                Here is a screenshot of the existing <a href="https://metronails.webs.com/"> Metro Nails website</a> for reference as I analyze
+                the problems in its interface:
+            </p>
+            <div class="d-flex flex-column health justify-content-center align-items-center">
+                <img src="metro-og.png" alt="screenshot", style="width: 65vw; height:45vw;"> 
+            </div>
+            <br> 
+            <br>
+        </div>
+    </div>
+    
+    <div id="usability" class="d-flex flex-column marble-back-for-updates justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Problems with Usability</h1>
+        <div class="row text-center last-left justify-content-center">
+            <div class="d-flex col-6 col-md-6 last-left justify-content-center align-items-center">
+                <div class="d-flex flex-column infographic text-dark text-center">
+                    <ul class>
+                        <h4 class="text-dark">Efficiency/Usability</h4>
+                        <br>
+                        <li> There is no clear layout making it inefficent ot scan the page</li>
+                        <li> The navigation bar does not fit the page and is dificult to read </li>
+                        <li> The website is not responsive and the headings wrap from right to left on the phone view </li>
+                        <li> Images and text do not resize</li>
+                        <li> The text is justified without hypenation, causing irregular spacing midline; this makes it inefficient to read
+                            any line
+                        </li>
+                        <li> Updated payment, contact and health/safety related information is scattered and difficult to efficiently find
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex col-6 col-md-6 last-left justify-content-center align-items-center">
+                <div class="d-flex flex-column infographic text-dark text-center">
+                    <ul class>
+                        <h4 class="text-dark">Learnability</h4>
+                        <br>
+                        <li> There is no clear layout making it inefficent ot scan the page </li>
+                        <li> Lacks learning accelerators like buttons and other interactive tools</li>
+                        <li> The external reviews do not look clickable, requiring cognitive effort to understand an unusual format of links</li>
+                        <li> There is no natural flow of information or clear headings to learn where information is </li>
+                        <li> Action buttons/links are generally placed below pictures to aid up-down scanning patterns; here, pictures themselves are links without
+                            any indicator </li>
+                    </ul>   
+                </div>
+            </div>
+            <div class="d-flex col-6 col-md-6 last-left justify-content-center align-items-center">
+                <div class="d-flex flex-column infographic text-dark text-center">
+                    <ul class>
+                        <h4 class="text-dark">Memorability</h4>
+                        <br>
+                        <li> The format of this website is confusing and somewhat random, making it difficult to remember</li>
+                        <li> No repeated elements or components, like buttons on hover, click, to aid recall  </li>
+                        <li> There are different font-styles, sizes and colors in an irregular pattern </li>
+                        <li> The webpage is very text heavy with small images that do not fit to the screen </li>
+                        <li> The spacing and overall layout lacks consistency and does not meet general standards, making details
+                            difficult to recall </li>
+                            
+                    </ul>   
+                </div>
+            </div>
+            <div class="d-flex col-6 col-md-6 last-left justify-content-center align-items-center">
+                <div class="d-flex flex-column infographic text-dark text-center">
+                    <ul class>
+                        <h4 class="text-dark">Conceptual model</h4>
+                        <br>
+                        <li> The conceptual model of a website for a nail salon is likely more colorful, representing beauty and cosmetic
+                        </li>
+                        <li> There is generally a clear "Reviews" section describing, often explicitly positive, customer experience</li>
+                        <li> There are generally images of the overall branding or products (like nail art) on the site</li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="accessibility" class="d-flex flex-column plain-back text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Problems with Accessibility</h1>
+        <div class="container text-left">
+            <p class="lead"> 
+            <ul class>
+                Some of the problems I described above are more apparent than the ones we miss the most frequently - accessibility-related issues. By using <a href="https://wave.webaim.org/">
+                WebAIM WAIVE's guidelines</a>, I was able to detect these problems more easibly; these include but are not limited to:
+                <br><br>
+                    <li> Missing alternative (alt) text for several images
+                    </li>
+                    <li> Language used missing or invalid</li>
+                    <li> Many empty headings</li>
+                    <li> 58 instances of very low contrast</li>
+                    <li> Fully justified text</li>
+                    <br>
+                    <br>
+                I think all of the above instances are so important because the detection of these problems is required to be able to work towards a more inclusive
+                web experience. For instance, fully justified text and empty headings leave irregular spacing making is difficult for users of assistive technologies to 
+                navigate the page.<br>
+                <br>
+                Not mentioning the language is part of an assumption that all users would be English-speaking which is severely problematic. Users of automatic translation of content 
+                would not be able to access the information on this place easily because of this.<br>
+                <br>
+                Lastly, instances of low contrast prove to be difficult to view for users with low vision or those who have some form of color-blindness.
+                <br>
+            </p>
+            <br> 
+            <br>
+        </div>
+    </div>
+    
+    <div id="accessibility" class="d-flex flex-column marble-back-for-updates text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Visual Redesign</h1>
+        <div class="container text-left">
+            <p class="lead"> 
+            <ul class>
+                <br>
+                Keeping the problems I mentioned above in mind, I am visually redesigned the "Metro Nails" website with th help of low-fidelity wireframes,
+                a visual design style guide and high-fidelity prototypes. These were instrumental in helping me reach a clearer vision of the website I 
+                wanted to build.<br>
+                
+            </p>
+            <br> 
+            <br>
+        </div>
+    </div>
+
+    <div id="lofi" class="d-flex flex-column plain-back text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Lofi Wireframes</h1>
+        <br>
+        <div class= "row text-center justify-content-center">
+            <div class="col-12 col-12">
+                <h3 class ="my-display text-center">Tablet</h3>
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    <br>
+                    <img class="hifi" src="lofi-tablet.png" alt="calendar", style="width: 50vw; height:55vw;">
+                </div>
+            </div>
+            <div class="col-12 col-12">
+                <h3 class ="my-display text-center">Phone</h3>
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    <br>
+                    <img class="hifi" src="phone-lofi.png" alt="calendar", style="width: 50vw; height:55vw;">
+                </div>
+            </div>
+            <div class="col-12 col-12">
+                <h3 class ="my-display text-center">Desktop</h3>
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    <br>
+                    <img class="hifi" src="lofi-desktop.png" alt="calendar", style="width: 50vw; height:55vw;">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div id="style-guide" class="d-flex flex-column marble-back-for-updates text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Visual Design Style Guide</h1>
+        <div class="d-flex flex-column text-light justify-content-center align-items-center">
+            <br>
+            <img class="hifi" src="style-guide.png" alt="guide", style="width: 50vw; height: 60vw;">
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div id="hifi" class="d-flex flex-column plain-back text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Hifi Prototype</h1>
+        <br>
+        <h3 class ="my-display text-center">Tablet</h3>
+        <div class= "row text-center justify-content-center">
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    Scroll 1
+                    <br>
+                    <img class="hifi" src="tablet-1.png" alt="calendar", style="width: 32vw; height:44vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    Scroll 2
+                    <br>
+                    <img class="hifi"src="tablet-2.png" alt="calendar", style="width: 32vw; height:44vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Scroll 3
+                    <br>
+                    <img class="hifi" src="tablet-3.png" alt="calendar", style="width: 32vw; height:44vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Annotations
+                    <br>
+                    <img class="hifi" src="hi.png" alt="calendar", style="width: 32vw; height:44vw;">
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3 class ="my-display text-center">Phone</h3>
+        <div class= "row text-center justify-content-center">
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    Scroll 1
+                    <br>
+                    <img class="hifi" src="phone-1.png" alt="calendar", style="width: 28vw; height:50vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    Scroll 2
+                    <br>
+                    <img class="hifi" src="phone-2.png" alt="calendar", style="width: 28vw; height:50vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Scroll 3
+                    <br>
+                    <img class="hifi" src="phone-3.png" alt="calendar", style="width: 28vw; height:50vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Annotations
+                    <br>
+                    <img class="hifi"src="hello.png" alt="calendar", style="width: 35vw; height:40vw;">
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3 class ="my-display text-center">Desktop</h3>
+        <div class= "row text-center justify-content-center">
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    Scroll 1
+                    <br>
+                    <img class="hifi" src="desktop-1.png" alt="calendar", style="width: 43vw; height:30vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column text-light justify-content-center align-items-center">
+                    Scroll 2
+                    <br>
+                    <img class="hifi" src="desktop-2.png" alt="calendar", style="width: 43vw; height:30vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Scroll 3
+                    <br>
+                    <img class="hifi" src="desktop-3.png" alt="calendar", style="width: 43vw; height:30vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Scroll 4
+                    <br>
+                    <img class="hifi" src="desktop-4.png" alt="calendar", style="width: 43vw; height:30vw;">
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    Annotations
+                    <br>
+                    <img class="hifi" src="desktop.png" alt="calendar", style="width: 30vw; height:47vw;">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="accessibility" class="d-flex flex-column marble-back-for-updates text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Responsibe Redesign Website</h1>
+        <div class="container text-left">
+            <p class="lead"> 
+            <ul class>
+                <br>
+                Using my analysis, the prototypes and wireframes I was able to get a clearer vision of what I was setting out to build.<br>
+                Here was my final product:
+                <a href="https://squishypig007.github.io/Metro-Nails/"> My Metro Nails website</a> 
+            </p>
+            <br> 
+            <br>
+        </div>
+    </div>
+
+    <div id="accessibility" class="d-flex flex-column marble-back-for-updates text-light justify-content-center align-items-center"> 
+        <h1 class ="my-display text-center">Conclusion</h1>
+        <div class="container text-left">
+            <p class="lead"> 
+            <ul class>
+                <br>
+                Throught this project I learnt how to think about usability, accessibility and good design in a different manner. I also learnt
+                interesting features of Bootstrap and how to use buttons/other interactive tools.
+            </p>
+            <br> 
+            <br>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-column footer-class justify-content-center ml-auto">
+        <div class="footer-text">
+            <p class="text-right text-light">
+                <br>
+               Made with love in CSCI1300
+            </p>
+        </div>
+    </footer>
+
+    </body>
+</html>
